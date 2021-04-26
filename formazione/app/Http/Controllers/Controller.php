@@ -8,9 +8,10 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
 #
-# Questo è un test scritto da massimo 
+# Questo è un test scritto da massimo
 #
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+    echo "bye";
 }
