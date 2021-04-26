@@ -13,7 +13,7 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-    echo "bye";
+    echo "Bye";
     dd( 'Test Eugenio' );
-    dd( 'Gian_1' );
+    echo "Massimo 2"
 }
