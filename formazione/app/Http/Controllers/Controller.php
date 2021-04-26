@@ -15,4 +15,5 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     echo "bye";
     dd( 'Test Eugenio' );
+    echo "Massimo 2"
 }
