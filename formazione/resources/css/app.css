@@ -3,4 +3,9 @@ body{
   color: red;
 }
 
+.gian{
+  display: flex;
+  flex-direction: column;
+}
+
 .max { color:aqua; }
